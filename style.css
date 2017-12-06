@@ -1,0 +1,113 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #006cff;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: normal;
+    margin: 0;
+    padding: 10px;
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+    color: #006cff;
+}
+
+.wrapper {
+    margin-top: 100px;
+    padding: 80px;
+}
+
+input:focus {
+    border: dashed white 1px !important;
+}
+
+input:focus ~ .test {
+    font-size: 5em !important;
+    background-color: yellow !important;
+}
+
+input[type=text] {
+    padding: 5px;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: transparent;
+    border: solid white 1px;
+    color: white;
+    transition: 1s ease;
+}
+
+input[type=date] {
+    padding: 5px;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: transparent;
+    border: solid white 1px;
+    color: white;
+    transition: 1s ease;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: rgba(255, 255, 255, 0.4);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: rgba(255, 255, 255, 0.4);
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: rgba(255, 255, 255, 0.4);
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(255, 255, 255, 0.4);
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(255, 255, 255, 0.4);
+}
+
+::-webkit-datetime-edit {
+    padding-left: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/*::-webkit-datetime-edit-fields-wrapper { background: silver; }*/
+/*::-webkit-datetime-edit-text { color: red; padding: 0 0.3em; }*/
+/*::-webkit-datetime-edit-month-field { color: blue; }*/
+/*::-webkit-datetime-edit-day-field { color: green; }*/
+/*::-webkit-datetime-edit-year-field { color: purple; }*/
+::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator { display: none; }
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.col50 {
+    width: 50%;
+}
+
+.col25 {
+    width: 25%;
+}

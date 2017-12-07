@@ -34,18 +34,20 @@ h1 {
     padding: 80px;
 }
 
-input:focus {
+input[type=text]:focus {
     border: dashed white 1px !important;
+    height: 2.5rem !important;
+    width: 12rem !important;
 }
 
-input:focus ~ .test {
-    font-size: 5em !important;
-    background-color: yellow !important;
+input[type=date]:focus {
+    border: dashed white 1px !important;
 }
 
 input[type=text] {
     padding: 5px;
     height: 2rem;
+    width: 10rem;
     font-size: 1rem;
     background-color: transparent;
     border: solid white 1px;
@@ -110,4 +112,12 @@ label {
 
 .col25 {
     width: 25%;
+}
+
+.normal {
+    display: inline-block;
+}
+
+.space-before {
+    margin-top: 50px;
 }

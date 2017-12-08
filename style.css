@@ -1,4 +1,4 @@
-html {
+html, * {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -45,6 +45,7 @@ input[type=date]:focus {
 }
 
 input[type=text] {
+    font-family: 'Roboto', sans-serif;
     padding: 5px;
     height: 2rem;
     width: 10rem;
@@ -56,6 +57,7 @@ input[type=text] {
 }
 
 input[type=date] {
+    font-family: 'Roboto', sans-serif;
     padding: 5px;
     height: 2rem;
     font-size: 1rem;
@@ -63,6 +65,27 @@ input[type=date] {
     border: solid white 1px;
     color: white;
     transition: 1s ease;
+}
+
+input[type="radio"] + label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border: solid white 1px;
+    padding: 5px;
+    transition: 1s ease;
+}
+
+textarea:focus {
+    border: dashed white 1px;
 }
 
 label {
@@ -120,4 +143,31 @@ label {
 
 .space-before {
     margin-top: 50px;
+}
+
+.quote-left {
+    border-left: solid white 5px;
+    max-height: 50px;
+}
+
+.col75 {
+    width: 75%;
+}
+
+.saveButton {
+    height: 50px;
+    width: 200px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: white;
+    color: #006cff;
+    border: solid white 1px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.saveButton:hover {
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
 }

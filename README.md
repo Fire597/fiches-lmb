@@ -1,7 +1,7 @@
 # Fiches élèves LMB
 Par Hugo Feutry et Hugo Cartigny.
 
-- [ ] Une fois le projet terminé, ajouter du php :
+- [x] Une fois le projet terminé, ajouter du php :
 
 ```php
 $req = $bdd->prepare(...);

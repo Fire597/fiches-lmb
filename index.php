@@ -36,10 +36,16 @@ if (isset($_POST['nom']) AND
     // TODO: Do search here across DB
     // Allez Hugo démerde-toi pour faire ça avec $bdd comme connexion, je veux le fetch() et tout hein !
     // Mets tous les résultats dans un tableau qu'on traitera plus tard. On fera une fonction genre displayResults(array);
+} elseif (isset($_GET['id'])) {
+    // TODO: Show sheet once extracted from database
+} elseif (isset($_GET['create'])) {
+    // TODO: Show creation page here
+} else {
+    // TODO: Show main search page here
 }
 
 ?>
-
+ 
 <!DOCTYPE html>
 <html>
     <head>
